@@ -1,0 +1,39 @@
+button {
+  text-align: center;
+  display: flex;  
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.button1{
+  text-align: center;
+  display: flex;  
+  width: 5rem;
+}
+
+.tabla{
+  text-align: center;
+  margin: 0 auto;
+}
+
+form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.b {
+  text-align: left;
+}
+
+input {
+  margin-bottom: 0.5rem;
+}
+
+a,
+h1 {
+  text-align: center;
+  text-decoration: none;
+}

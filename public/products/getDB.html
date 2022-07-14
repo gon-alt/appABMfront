@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles.css">
+    <title>Base de datos {}</title>
+</head>
+<style>    
+    table thead {
+        background: #000000;
+        color: white;
+    }
+</style>
+
+<body>
+    <h1>Base de datos</h1>
+    <div class="">
+        <table class="tabla">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>                    
+                    <th>Modificar</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+            </tbody>
+        </table>
+        <form id="form">                          
+            <input type='text' name='name' id="pname" placeholder='Nombre del producto' />
+            <input type='number' name='price' id="pprice" placeholder='Precio del producto' />
+        </form>
+    </div>
+    <div>
+        <a class="buttom" href='/'>
+            <button>
+                <h3>Volver al inicio</h3>
+            </button>
+        </a>
+        <a class="button" href='/products/create.html'>
+            <button>
+                <h3>Crear nuevo producto</h3>
+            </button>
+        </a>
+    </div>
+    </div>
+    <script src="getDB.js"></script>
+</body>
+
+</html>
+
