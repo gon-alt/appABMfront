@@ -1,7 +1,11 @@
 const deleteProduct = async (_id) => {
   console.log(_id)
   try {
+<<<<<<< HEAD
     await fetch(`https://localhost:5000/api/v1/products/${_id}`, {
+=======
+    await fetch(`http://appabm.azurewebsites.net/api/v1/products/${_id}`, {
+>>>>>>> d1280313c79de9fba510d33c3b115840c71bc106
       method: "DELETE",
     });
     router.push("/products/getDB");
@@ -55,7 +59,11 @@ function Edit(_id) {
   product.name = name
   product.price = price
   try{
+<<<<<<< HEAD
   fetch(`https://localhost:5000/api/v1/products/${_id}`, {
+=======
+  fetch(`http://appabm.azurewebsites.net/api/v1/products/${_id}`, {
+>>>>>>> d1280313c79de9fba510d33c3b115840c71bc106
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json',

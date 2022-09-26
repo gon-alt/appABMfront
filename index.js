@@ -19,7 +19,7 @@ const port = 3000;
 app.set(port, 3000)
 app.listen(app.get(port), ()=>{
 
-    console.log(`aplicaciones escuchando en puerto ${port}`)
+    console.log(`aplicaciones escuchando puerto ${port}`)
 
 })
 
