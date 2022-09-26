@@ -1,11 +1,9 @@
 const deleteProduct = async (_id) => {
   console.log(_id)
   try {
-<<<<<<< HEAD
+
     await fetch(`https://appabm.azurewebsites.net/api/v1/products/${_id}`, {
-=======
-    await fetch(`https://appabm.azurewebsites.net/api/v1/products/${_id}`, {
->>>>>>> d1280313c79de9fba510d33c3b115840c71bc106
+
       method: "DELETE",
     });
     router.push("/products/getDB");
