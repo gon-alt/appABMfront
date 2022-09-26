@@ -2,9 +2,9 @@ const deleteProduct = async (_id) => {
   console.log(_id)
   try {
 <<<<<<< HEAD
-    await fetch(`https://localhost:5000/api/v1/products/${_id}`, {
+    await fetch(`https://appabm.azurewebsites.net/api/v1/products/${_id}`, {
 =======
-    await fetch(`http://appabm.azurewebsites.net/api/v1/products/${_id}`, {
+    await fetch(`https://appabm.azurewebsites.net/api/v1/products/${_id}`, {
 >>>>>>> d1280313c79de9fba510d33c3b115840c71bc106
       method: "DELETE",
     });
@@ -17,7 +17,7 @@ const deleteProduct = async (_id) => {
 };
 
 
-let url = `https://localhost:5000/api/v1/products/`;
+let url = `https://appabm.azurewebsites.net/api/v1/products/`;
 fetch(url)
   .then(response => response.json())
   .then(data => mostrarData(data))
@@ -60,9 +60,9 @@ function Edit(_id) {
   product.price = price
   try{
 <<<<<<< HEAD
-  fetch(`https://localhost:5000/api/v1/products/${_id}`, {
+  fetch(`https://appabm.azurewebsites.net/api/v1/products/${_id}`, {
 =======
-  fetch(`http://appabm.azurewebsites.net/api/v1/products/${_id}`, {
+  fetch(`https://appabm.azurewebsites.net/api/v1/products/${_id}`, {
 >>>>>>> d1280313c79de9fba510d33c3b115840c71bc106
     method: 'PUT',
     headers: {
