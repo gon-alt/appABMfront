@@ -1,7 +1,7 @@
 const deleteProduct = async (_id) => {
   console.log(_id)
   try {
-    await fetch(`http://localhost:5000/api/v1/products/${_id}`, {
+    await fetch(`http://appabm.azurewebsites.net/api/v1/products/${_id}`, {
       method: "DELETE",
     });
     router.push("/products/getDB");
@@ -13,7 +13,7 @@ const deleteProduct = async (_id) => {
 };
 
 
-let url = `http://localhost:5000/api/v1/products/`;
+let url = `http://appabm.azurewebsites.net/api/v1/products/`;
 fetch(url)
   .then(response => response.json())
   .then(data => mostrarData(data))
@@ -55,7 +55,7 @@ function Edit(_id) {
   product.name = name
   product.price = price
   try{
-  fetch(`http://localhost:5000/api/v1/products/${_id}`, {
+  fetch(`http://appabm.azurewebsites.net/api/v1/products/${_id}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json',
