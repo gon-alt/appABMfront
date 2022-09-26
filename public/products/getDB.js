@@ -57,11 +57,8 @@ function Edit(_id) {
   product.name = name
   product.price = price
   try{
-<<<<<<< HEAD
+
   fetch(`https://appabm.azurewebsites.net/api/v1/products/${_id}`, {
-=======
-  fetch(`https://appabm.azurewebsites.net/api/v1/products/${_id}`, {
->>>>>>> d1280313c79de9fba510d33c3b115840c71bc106
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json',
