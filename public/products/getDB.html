@@ -6,6 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Styles.css">
+
+    
+	
+	<style>
+		.mdi {
+			font-size: 3rem;
+		}
+
+		#tiempoTranscurrido {
+			font-size: 4rem;
+            text-align: center;
+		}
+	</style>
+
+
     <title>Base de datos {}</title>
 </head>
 <style>    
@@ -48,8 +63,20 @@
             </button>
         </a>
     </div>
+    <h3># El Backend esta desplegado mediante github actions en una instacia de Azure en la capa gratuita que demora 20 segundo aproximadamente en reaccionar a la primera peticion de la base de datos.</h3>
     </div>
     <script src="getDB.js"></script>
+    
+    <section class="section">
+		<div class="columns">
+			<div class="column has-text-centered">
+				<h2 id="tiempoTranscurrido"></h2>
+
+				<div id="contenedorMarcas">
+				</div>
+			</div>
+		</div>
+	</section>
 </body>
 
 </html>
