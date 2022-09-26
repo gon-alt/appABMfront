@@ -16,7 +16,7 @@ function Create() {
   product.name = name
   product.price = price
 
-  fetch(`http://localhost:5000/api/v1/products`, {
+  fetch(`http://appabm.azurewebsites.net/api/v1/products`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
