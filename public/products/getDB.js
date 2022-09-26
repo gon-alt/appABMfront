@@ -13,7 +13,7 @@ const deleteProduct = async (_id) => {
 };
 
 
-let url = `http://appabm.azurewebsites.net/api/v1/products/`;
+let url = `https://appabm.azurewebsites.net/api/v1/products/`;
 fetch(url)
   .then(response => response.json())
   .then(data => mostrarData(data))
