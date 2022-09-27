@@ -85,7 +85,6 @@ function resetform() {
   document.getElementById("form").reset();
   location.reload();
 }
-<<<<<<< HEAD
 
 document.addEventListener("DOMContentLoaded", () => {
 	const $tiempoTranscurrido = document.querySelector("#tiempoTranscurrido"),
@@ -184,5 +183,3 @@ document.addEventListener("DOMContentLoaded", () => {
 	init();
   	iniciar();
   });
-=======
->>>>>>> 42aceb0bbe0b1473747a18af043b205e8325e3f3
