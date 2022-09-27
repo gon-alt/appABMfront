@@ -1,6 +1,8 @@
 # appABMfront
 frontend de app ABM sin framework
 
+##Local
+
 - Verifico version de node
 $> node -v
 v7.9.0
@@ -16,3 +18,6 @@ $> npm init
 - Ejecutar el siguiente comando en la carpeta raiz para  correr la aplicación dentro de un entorno local.
 - nodemon index.js
 - Abra el proyecto con el navegador en el siguiente link: http://localhost:3000/
+
+##Docker compose 
+` Docker compose up `
