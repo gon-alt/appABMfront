@@ -19,5 +19,7 @@ $> npm init
 - nodemon index.js
 - Abra el proyecto con el navegador en el siguiente link: http://localhost:3000/
 
+## Docker:  
+
 ##Docker compose 
 ` Docker compose up `
