@@ -16,7 +16,11 @@ function Create() {
   product.name = name
   product.price = price
 
+<<<<<<< HEAD
   fetch(`https://appabm.azurewebsites.netapi/v1/products`, {
+=======
+  fetch(`https://appabm.azurewebsites.net/api/v1/products`, {
+>>>>>>> 42aceb0bbe0b1473747a18af043b205e8325e3f3
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

@@ -1,7 +1,13 @@
 const deleteProduct = async (_id) => {
   console.log(_id)
   try {
+<<<<<<< HEAD
     await fetch(`https://appabm.azurewebsites.net/api/v1/products/${_id}`, {
+=======
+
+    await fetch(`https://appabm.azurewebsites.net/api/v1/products/${_id}`, {
+
+>>>>>>> 42aceb0bbe0b1473747a18af043b205e8325e3f3
       method: "DELETE",
     });
     router.push("/products/getDB");
@@ -55,6 +61,10 @@ function Edit(_id) {
   product.name = name
   product.price = price
   try{
+<<<<<<< HEAD
+=======
+
+>>>>>>> 42aceb0bbe0b1473747a18af043b205e8325e3f3
   fetch(`https://appabm.azurewebsites.net/api/v1/products/${_id}`, {
     method: 'PUT',
     headers: {
@@ -75,6 +85,7 @@ function resetform() {
   document.getElementById("form").reset();
   location.reload();
 }
+<<<<<<< HEAD
 
 document.addEventListener("DOMContentLoaded", () => {
 	const $tiempoTranscurrido = document.querySelector("#tiempoTranscurrido"),
@@ -173,3 +184,5 @@ document.addEventListener("DOMContentLoaded", () => {
 	init();
   	iniciar();
   });
+=======
+>>>>>>> 42aceb0bbe0b1473747a18af043b205e8325e3f3
