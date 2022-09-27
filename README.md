@@ -1,5 +1,6 @@
 # appABMfront
 frontend de app ABM sin framework
+<<<<<<< HEAD
 
 ##Local
 
@@ -23,3 +24,8 @@ $> npm init
 
 ##Docker compose 
 ` Docker compose up `
+=======
+` npm init `
+` npm inaltall `
+` npm dev ` 
+>>>>>>> 6f0bec3bc59d4894b51b239cf6c977d26265e9da
